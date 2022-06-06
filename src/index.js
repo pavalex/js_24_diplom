@@ -1,7 +1,3 @@
-import sliderOne from './modules/slider';
-import sliderTwo from './modules/badScript';
-import burger from './modules/burger';
+import modal from './modules/modal';
 
-sliderOne();
-sliderTwo();
-burger();
+modal();

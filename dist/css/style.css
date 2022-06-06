@@ -255,7 +255,7 @@ a.absolute {
 	position: relative;
 }
 .modal {
-	display: none;
+	/*display: none;*/
 	width: 460px;
 	max-width: 100%;
 	background: #fff;
