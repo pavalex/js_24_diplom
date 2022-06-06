@@ -8,7 +8,8 @@ const modal = () => {
     const buttonsMenuModal = document.querySelectorAll('.callback-btn');
 
     buttonsMenuModal.forEach(btn => {
-        btn.addEventListener('click', () => {
+        btn.addEventListener('click', (e) => {
+            e.preventDefault();
             const widthWindow = window.innerWidth;
             modalCallback.style.display = 'block';
             modalOverlay.style.display = 'block';
