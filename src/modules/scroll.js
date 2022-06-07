@@ -22,7 +22,9 @@ const scroll = () => {
     }
 
     // Плавный скролл
-    window.addEventListener('scroll',() =>{
+    window.addEventListener('scroll',(e) =>{
+        e.preventDefault();
+
         let scrollTop = window.scrollY;
 
         if (scrollTop >= servicesSectionTop - heightHeaderWrapper) {
