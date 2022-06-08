@@ -841,6 +841,7 @@ hr.white {
 .top-slider .slick-dots {
 	position: absolute;
 	bottom: 25px;
+	z-index: 10;
 }
 .top-slider .slick-dots li {
 	border-color: #fff !important;
@@ -856,7 +857,13 @@ hr.white {
 	overflow: hidden;
 	height: 450px;
 	position: relative;
+	display: none;
 }
+
+.top-slider .item-active {
+	display: block;
+}
+
 .top-slider .item:before {
 	content: "";
 	display: block;
@@ -867,10 +874,12 @@ hr.white {
 	left: 0;
 	background: rgba(0, 0, 0, 0.5);
 }
+
 .top-slider .table {
 	position: relative;
 	z-index: 10;
 }
+
 .video-block {
 	height: 100%;
 }
