@@ -15,6 +15,9 @@ const slider = () => {
         const dot = document.createElement('li');
         dot.classList.add('dot');
         dotsList.append(dot);
+        if (i === 0) {
+            dot.classList.add('slick-active');
+        }
     }
 
     const dots = document.querySelectorAll('.dot');
