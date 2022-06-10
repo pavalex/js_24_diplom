@@ -293,6 +293,15 @@ a.absolute {
 	padding: 55px 25px 35px;
 	z-index: 99;
 }
+
+.error {
+	outline: solid 2px red;
+}
+
+.error:focus {
+	outline: solid 2px red;
+}
+
 #responseMessage .modal-content.error {
 	color: #2fab6d;
 }

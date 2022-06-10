@@ -15,6 +15,7 @@
 	<meta name="copyright" content="© collary.ru, дизайн и разработка, 2018" />
 	<link rel="icon" type="image/png" href="favicon.png" />
 
+	<link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css">
 	<!-- STYLESHEETS :: FONTS -->
 	<link
 		href='https://fonts.googleapis.com/css?family=Open+Sans:600,400,300,400italic,600,700,700italic,800&subset=latin,cyrillic'
@@ -159,9 +160,9 @@
 				<div class="push40"></div>
 
 
-				<div class="services-elements">
-					<div class="row services-carousel">
-						<div class="col-sm-6 col-md-4">
+				<div class="services-elements swiper">
+					<div class="row services-carousel swiper-wrapper">
+						<div class="col-sm-6 col-md-4 swiper-slide">
 							<div class="element relative">
 								<a class="absolute fancyboxModal" href="#application"
 									data-application="Аварийный выезд"></a>
@@ -178,7 +179,7 @@
 								</div>
 							</div>
 						</div>
-						<div class="col-sm-6 col-md-4">
+						<div class="col-sm-6 col-md-4 swiper-slide">
 							<div class="element relative">
 								<a class="absolute fancyboxModal" href="#application"
 									data-application="Монтаж или замена электропроводки"></a>
@@ -195,7 +196,7 @@
 								</div>
 							</div>
 						</div>
-						<div class="col-sm-6 col-md-4">
+						<div class="col-sm-6 col-md-4 swiper-slide">
 							<div class="element relative">
 								<a class="absolute fancyboxModal" href="#application"
 									data-application="Ремонт, замена, перенос розеток"></a>
@@ -212,7 +213,7 @@
 								</div>
 							</div>
 						</div>
-						<div class="col-sm-6 col-md-4">
+						<div class="col-sm-6 col-md-4 swiper-slide">
 							<div class="element relative">
 								<a class="absolute fancyboxModal" href="#application"
 									data-application="Замена электросчетчика"></a>
@@ -229,7 +230,7 @@
 								</div>
 							</div>
 						</div>
-						<div class="col-sm-6 col-md-4">
+						<div class="col-sm-6 col-md-4 swiper-slide">
 							<div class="element relative">
 								<a class="absolute fancyboxModal" href="#application"
 									data-application="Установка, замена люстры"></a>
@@ -246,7 +247,7 @@
 								</div>
 							</div>
 						</div>
-						<div class="col-sm-6 col-md-4">
+						<div class="col-sm-6 col-md-4 swiper-slide">
 							<div class="element relative">
 								<a class="absolute fancyboxModal" href="#application"
 									data-application="Установка светильников"></a>
@@ -634,7 +635,7 @@
 				</div>
 
 				<div class="form-group">
-					<input type="text" name="tel" class="form-control tel required" placeholder="Телефон*" />
+					<input type="text" name="tel" class="form-control tel required" placeholder="Телефон*" required/>
 				</div>
 				<p><span class="red">*</span> <span class="f12">- поля, обязательные для заполнения</span></p>
 				<div>
